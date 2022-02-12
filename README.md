@@ -1,7 +1,7 @@
 ## buildHtmlExample
 
 ```js
-import buildHtml from './example';
+import buildHtml from './index';
  
 const data = ['html', [
   ['head', [
