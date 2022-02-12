@@ -5,7 +5,7 @@ import buildHtml from './index';
  
 const data = ['html', [
   ['head', [
-    ['title', 'hello, hexlet!'],
+    ['title', 'hello, world!'],
   ]],
   ['body', { class: 'container' }, [
     ['h1', { class: 'header' }, 'html builder example'],
@@ -24,7 +24,7 @@ buildHtml(data);
 ```html
 <html>
   <head>
-    <title>hello, hexlet!</title>
+    <title>hello, world!</title>
   </head>
   <body class="container">
     <h1 class="header">html builder example</h1>
