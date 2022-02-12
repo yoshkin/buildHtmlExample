@@ -35,3 +35,27 @@ buildHtml(data);
   </body>
 </html>
 ```
+
+## v2
+
+```js
+const data = ['html', [
+  ['meta', { id: 'uniq-key' }, [
+    ['title', 'hello, hexlet!'],
+  ]],
+  ['body', [
+    ['br'],
+  ]],
+]];
+ 
+const ast = parse(data);
+ 
+{ name: 'html', attributes: {}, body: '', children: [
+  { name: 'meta', attributes: { id: 'uniq-key' }, body: '', children: [
+    { name: 'title', attributes: {}, body: 'hello, hexlet!', children: [] },
+  ]},
+  { name: 'body', attributes: {}, body: '', children: [
+    { name: 'br', attributes: {}, body: '', children: [] },
+  ]},
+]}
+```
