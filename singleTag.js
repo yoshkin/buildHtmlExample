@@ -1,18 +1,8 @@
 // @ts-check
+import Node from './Node';
 
-export default class {
-  constructor(name, attributes = {}) {
-    this.name = name;
-    this.attributes = attributes;
-  }
-
+export default class extends Node {
   toString() {
-    return `<${this.name}${this.getAttributesAsLine()}>`
+    return `<${this.name}${this.getAttributesAsLine()}>`;
   }
-
-  getAttributesAsLine() {
-    return Object.entries(this.attributes)
-      .map(([key, value]) => ` ${key}="${value}"`)
-      .join('');
-  }
-};
+}
