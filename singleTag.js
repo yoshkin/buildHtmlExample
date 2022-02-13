@@ -18,3 +18,14 @@ export default class extends Node {
 //   Node.apply(this, [name, attributes]);
 //   this.toString = toString;
 // };
+
+// :: PROTO ::
+// import Node from './node';
+
+// export default function SingleTag(name, attributes) {
+//   Node.apply(this, [name, attributes]);
+// }
+
+// SingleTag.prototype.toString = function toString() {
+//   return `<${this.name}${this.getAttributesAsLine()}>`;
+// };
