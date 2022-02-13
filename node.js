@@ -24,6 +24,6 @@ export default class {
 // export default function Node(name, attributes) {
 //   this.name = name;
 //   this.attributes = attributes;
-//   this.getName = getName.bind(this);
-//   this.getAttributesAsLine = getAttributesAsLine.bind(this);
+//   this.getName = getName;
+//   this.getAttributesAsLine = getAttributesAsLine;
 // };
