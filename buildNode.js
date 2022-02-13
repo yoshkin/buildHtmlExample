@@ -1,7 +1,7 @@
 // @ts-check
 
-import PairedTag from "./PairedTag";
-import SingleTag from "./SingleTag";
+import PairedTag from "./pairedTag";
+import SingleTag from "./singleTag";
 
 const singleTagsList = new Set(["hr", "br", "img"]);
 export default (name, ...props) => {
