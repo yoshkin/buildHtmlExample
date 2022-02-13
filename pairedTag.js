@@ -1,6 +1,6 @@
 // @ts-check
 
-import Node from './Node';
+import Node from './node';
 
 export default class extends Node {
   constructor(name, attributes, body = '', children = []) {
